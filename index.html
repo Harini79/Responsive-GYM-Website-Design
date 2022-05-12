@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness center website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="logo.png" alt="Loading">
+            <div>Best Fitness Center</div>
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#" class="active" target="_top">Home</a></li>
+                    <li><a href="#" target="_top">About Us</a></li>
+                    <li><a href="#" target="_top">Fitness Calculator</a></li>
+                    <li><a href="#" target="_top">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- right for buttons -->
+        <div class="right">
+            <button class="btn">Register Now</button>
+            <button class="btn">Email To Us</button>
+        </div>
+    </header>
+    <main>
+        <div class="home">
+            <h1>Home</h1>
+            <p class="para">This is our Gym online registeration website. In this website you can check our address and
+                servie experience. The best gym locations near your locations. You can contact or register as a client
+                to our gym through this website.</p>
+        </div>
+        <div class="aboutUs">
+            <h1>About Us</h1>
+            <p class="para">
+            <h3>EVER GREEN FITNESS GYM</h3>
+            we start our gym 20 years ago, Now we are the best fitness center in multiple states. we have best trained
+            coachs. we are running this gyms based on our 20 years experience!
+            </p>
+        </div>
+        <div class="fitnessCalc">
+            <h1>Fitness Calculator</h1>
+            <h3>
+                ENTER YOUR AGE:<input type="number" name="age">
+            </h3>
+            <h3>
+                ENTER YOUR WEIGHT:<input type="number" name="weight">
+            </h3>
+            <h3>
+                YOUR FITNESS RANGE: <input type="text" name="range" id="fitnessLevel">
+            </h3>
+        </div>
+    </main>
+    <footer>
+        <div class="container" id="contactUs">
+            <h1>Join Our Best GYM Today To Maintain Fitness! </h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="Name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="Age" placeholder="Enter Your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Gender" placeholder="Enter Your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Locality" placeholder="Enter Your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="Email" placeholder="Enter Your Email ID">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="Phone Number" placeholder="Enter Your Phone Number">
+                </div>
+                <button type="submit" id="btm">submit</button>
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>

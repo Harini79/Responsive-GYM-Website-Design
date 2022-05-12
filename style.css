@@ -1,0 +1,159 @@
+body {
+    font-family: 'Libre Bodoni', serif;
+    background: url(img.png);
+    /* background: url(background.png); */
+    /* background: url(img2.png); */
+    background-size: cover;
+}
+
+.header {
+    box-sizing: border-box;
+    width: 1200px;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 10px;
+}
+
+.left img {
+    display: inline-block;
+    margin-left: 55px;
+    width: 70px;
+    /* filter: invert(100%); */
+}
+
+.left div {
+    font-size: 18px;
+    color: rgb(176, 219, 5);
+}
+
+.mid {
+    /* position: sticky; */
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.right {
+    display: inline-block;
+    position: relative;
+    left: 79%;
+    right: 35px;
+    top: -62px;
+}
+
+.btn {
+    font-family: 'Libre Bodoni', serif;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border: 2px solid rgb(95, 208, 95);
+    border-radius: 34px 12px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.btn:hover {
+    background-color: rgb(223, 51, 51);
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(201, 19, 19);
+}
+
+.container {
+    margin: 2px 2px;
+    padding: 7px;
+    color: rgb(226, 218, 218);
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form-group input {
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+    display: block;
+    width: 433px;
+    padding: 1px;
+    border: 2px solid rgb(108, 202, 61);
+    margin: 7px auto;
+    font-size: 20px;
+    border-radius: 9px;
+}
+
+#btm {
+    font-family: 'Libre Bodoni', serif;
+    display: block;
+    width: 433px;
+    padding: 1px;
+    background-color: rgb(18, 16, 16);
+    color: white;
+    border: 2px solid rgb(39, 225, 151);
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.home {
+    font-family: 'Libre Bodoni', serif;
+    text-align: justify;
+    display: block;
+    width: 100%;
+    padding: 1px;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.aboutUs {
+    font-family: 'Libre Bodoni', serif;
+    text-align: justify;
+    display: block;
+    width: 100%;
+    padding: 1px;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.fitnessCalc {
+    font-family: 'Libre Bodoni', serif;
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    padding: 11px;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+#contactUs {
+    border: 2px solid gray;
+}
